@@ -9,23 +9,23 @@
 <div class="container">
 
     <?php
-        $curp = $_GET['curp'];
-        $apellidoPaterno = $_GET['apellidoPaterno'];
-        $apellidoMaterno = $_GET['apellidoMaterno'];
-        $nombre = $_GET['nombre'];
-        $matricula = $_GET['matricula'];
-        $unidadMedica = $_GET['unidadMedica'];
-        $edad = $_GET['edad'];
-        $sexo = $_GET['sexo'];
-        $domicilio = $_GET['domicilio'];
-        $calle = $_GET['calle'];
-        $colonia = $_GET['colonia'];
-        $municipio = $_GET['municipio'];
-        $cp = $_GET['cp'];
-        $entidadFederativa = $_GET['entidadFederativa'];
-        $fechaRegistro = $_GET['fechaRegistro'];
-        $estatura = $_GET['estatura'];
-        $peso = $_GET['peso'];
+        $curp = $_POST['curp'];
+        $apellidoPaterno = $_POST ['apellidoPaterno'];
+        $apellidoMaterno = $_POST ['apellidoMaterno'];
+        $nombre = $_POST  ['nombre'];
+        $matricula = $_POST['matricula'];
+        $unidadMedica = $_POST['unidadMedica'];
+        $edad = $_POST['edad'];
+        $sexo = $_POST['sexo'];
+        $domicilio = $_POST['domicilio'];
+        $calle = $_POST['calle'];
+        $colonia = $_POST ['colonia'];
+        $municipio = $_POST['municipio'];
+        $cp = $_POST  ['cp'];
+        $entidadFederativa = $_POST['entidadFederativa'];
+        $fechaRegistro = $_POST['fechaRegistro'];
+        $estatura = $_POST['estatura'];
+        $peso = $_POST['peso'];
     ?>
     <div class="row">
         <div class="col-1"></div>
@@ -50,7 +50,25 @@
                 <li class="list-group-item"><b>Estatura: </b><?php echo $estatura?></li>
                 <li class="list-group-item"><b>Peso: </b><?php echo $peso?></li>
         </div>
-        <form method="get" action="cartillaFormulario.php">
+        <form method="post" action="cartillaFormulario.php">
+            <div class="row">
+                <div class="card"><b><input type="text" class="form-control" id="curp" hidden
+                                            name="peso"
+                                            value="<?php echo $peso ?>"
+                                            placeholder="Fecha de Aplicacion"></b></div>
+            </div>
+            <div class="row">
+                <div class="card"><b><input type="text" class="form-control" id="curp" hidden
+                                            name="estatura"
+                                            value="<?php echo $estatura ?>"
+                                            placeholder="Fecha de Aplicacion"></b></div>
+            </div>
+            <div class="row">
+                <div class="card"><b><input type="text" class="form-control" id="curp" hidden
+                                            name="edad"
+                                            value="<?php echo $edad ?>"
+                                            placeholder="Fecha de Aplicacion"></b></div>
+            </div>
         <div class="card-footer">
             <div class="row">
                 <div class="col-8"></div>

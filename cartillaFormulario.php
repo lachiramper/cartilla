@@ -1,3 +1,9 @@
+<?php
+$estatura = $_POST['estatura'];
+$peso = $_POST['peso'];
+$edad = $_POST['edad'];
+?>
+
 <html>
 <head>
     <title>IMSS</title>
@@ -7,6 +13,21 @@
 </head>
 <body>
 <div class="container">
+
+    <form method="post" action="carnetDatos.php">
+
+        <div class="row">
+            <div class="card"><b><input type="text" class="form-control" id="curp" hidden
+                                        name="peso"
+                                        value="<?php echo $peso ?>"
+                                        placeholder="Fecha de Aplicacion"></b></div>
+        </div>
+        <div class="row">
+            <div class="card"><b><input type="text" class="form-control" id="curp" hidden
+                                        name="estatura"
+                                        value="<?php echo $estatura ?>"
+                                        placeholder="Fecha de Aplicacion"></b></div>
+        </div>
     <div class="row">
         <div class="col">
             <div class="alert alert-success" role="alert">
@@ -46,7 +67,7 @@
             <div><b>AL NACER</b></div>
         </div>
         <div class="col card text-center">
-            <div><b><input type="text" class="form-control" id="curp" name="FECHAAPLICACIONBCG" required
+            <div><b><input type="text" class="form-control" id="curp" name="fechaAplicacionBCG"
                            placeholder="Fecha de Aplicacion"></b></div>
         </div>
     </div>
@@ -82,17 +103,17 @@
         <div class="col card text-center">
             <div class="row">
                 <div class="card"><b><input type="text" class="form-control" id="curp"
-                                            name="FECHAAPLICACIONHEPATITISPRIMERA" required
+                                            name="fechaAplicacionHEPATITISPRIMERA"
                                             placeholder="Fecha de Aplicacion"></b></div>
             </div>
             <div class="row">
                 <div class="card"><b><input type="text" class="form-control" id="curp"
-                                            name="FECHAAPLICACIONHEPATITISSEGUNDA" required
+                                            name="fechaAplicacionHEPATITISSEGUNDA"
                                             placeholder="Fecha de Aplicacion"></b></div>
             </div>
             <div class="row">
                 <div class="card"><b><input type="text" class="form-control" id="curp"
-                                            name="FECHAAPLICACIONHEPATITISTERCERA" required
+                                            name="fechaAplicacionHEPATITISTERCERA"
                                             placeholder="Fecha de Aplicacion"></b></div>
             </div>
         </div>
@@ -137,27 +158,27 @@
         <div class="col card text-center">
             <div class="row">
                 <div class="card"><b><input type="text" class="form-control" id="curp"
-                                            name="FECHAAPLICACIONPENTAVALENTEPRIMERA" required
+                                            name="fechaAplicacionPENTAVALENTEPRIMERA"
                                             placeholder="Fecha de Aplicacion"></b></div>
                 </b>
             </div>
             <div class="row">
                 <div class="card"><b><input type="text" class="form-control" id="curp"
-                                            name="FECHAAPLICACIONPENTAVALENTESEGUNDA" required
-                                            placeholder="Fecha de Aplicacion"></b></div>
-                </b>
-            </div>
-            </b>
-            <div class="row">
-                <div class="card"><b><input type="text" class="form-control" id="curp"
-                                            name="FECHAAPLICACIONPENTAVALENTETERCERA" required
+                                            name="fechaAplicacionPENTAVALENTESEGUNDA"
                                             placeholder="Fecha de Aplicacion"></b></div>
                 </b>
             </div>
             </b>
             <div class="row">
                 <div class="card"><b><input type="text" class="form-control" id="curp"
-                                            name="FECHAAPLICACIONPENTAVALENTECUARTA" required
+                                            name="fechaAplicacionPENTAVALENTETERCERA"
+                                            placeholder="Fecha de Aplicacion"></b></div>
+                </b>
+            </div>
+            </b>
+            <div class="row">
+                <div class="card"><b><input type="text" class="form-control" id="curp"
+                                            name="fechaAplicacionPENTAVALENTECUARTA"
                                             placeholder="Fecha de Aplicacion"></b></div>
                 </b>
             </div>
@@ -177,7 +198,7 @@
             </div>
             <div class="col card text-center">
                 <div><b><input type="text" class="form-control" id="curp"
-                               name="FECHAAPLICACION DPT" required
+                               name="fechaAplicacionDPT"
                                placeholder="Fecha de Aplicacion"></b></div></b></div>
             </div>
         </div>
@@ -214,17 +235,17 @@
             <div class="col card text-center">
                 <div class="row">
                     <div class="card"><b><input type="text" class="form-control" id="curp"
-                            name="FECHAAPLICACIONROTAVIRUSPRIMERA " required
+                            name="fechaAplicacionROTAVIRUSPRIMERA"
                             placeholder="Fecha de Aplicacion"></b></div>
                 </div>
                 <div class="row">
                     <div class="card"><b><input type="text" class="form-control" id="curp"
-                                                name="FECHAAPLICACIONROTAVIRUSSEGUNDA " required
+                                                name="fechaAplicacionROTAVIRUSSEGUNDA"
                                                 placeholder="Fecha de Aplicacion"></b></div>
                 </div>
                 <div class="row">
                     <div class="card"><b><input type="text" class="form-control" id="curp"
-                                                name="FECHAAPLICACIONROTAVIRUSSTERCERA " required
+                                                name="fechaAplicacionROTAVIRUSSTERCERA"
                                                 placeholder="Fecha de Aplicacion"></b></div>
                 </div>
             </div>
@@ -261,17 +282,17 @@
             <div class="col card text-center">
                 <div class="row">
                     <div class="card"><b><input type="text" class="form-control" id="curp"
-                                                name="FECHAAPLICACIONNEUMOCOCICAPRIMERA " required
+                                                name="fechaAplicacionNEUMOCOCICAPRIMERA"
                                                 placeholder="Fecha de Aplicacion"></b></div>
                 </div>
                 <div class="row">
                     <div class="card"><b><input type="text" class="form-control" id="curp"
-                                                name="FECHAAPLICACIONNEUMOCOCICASEGUNDA " required
+                                                name="fechaAplicacionNEUMOCOCICASEGUNDA"
                                                 placeholder="Fecha de Aplicacion"></b></div>
                 </div>
                 <div class="row">
                     <div class="card"><b><input type="text" class="form-control" id="curp"
-                                                name="FECHAAPLICACIONNEUMOCOCICATERCERA " required
+                                                name="fechaAplicacionNEUMOCOCICATERCERA"
                                                 placeholder="Fecha de Aplicacion"></b></div>
                 </div>
             </div>
@@ -308,18 +329,18 @@
             </div>
             <div class="col card text-center">
                 <div class="row"><b><input type="text" class="form-control"
-                                           name="FECHAAPLICACIONIFLUENZAPRIMERA " required
+                                           name="fechaAplicacionIFLUENZAPRIMERA"
                                            placeholder="Fecha de Aplicacion"></b>
                 </div>
                 <div class="row">
                     <div class="card"><b><input type="text" class="form-control" id="curp"
-                                                name="FECHAAPLICACIONINFLUENZASEGUNDA " required
+                                                name="fechaAplicacionINFLUENZASEGUNDA"
                                                 placeholder="Fecha de Aplicacion"></b></div>
                 </div>
                 <div class="row">
                     <div class="row">
                         <div class="card"><b><input type="text" class="form-control" id="curp"
-                                                    name="FECHAAPLICACIONINFLUENZATERCERA " required
+                                                    name="fechaAplicacionINFLUENZATERCERA"
                                                     placeholder="Fecha de Aplicacion"></b></div>
                     </div>
                 </div>
@@ -351,12 +372,12 @@
             <div class="col card text-center">
                 <div class="row">
                     <div class="card"><b><input type="text" class="form-control" id="curp"
-                                                name="FECHAAPLICACIONSRPPRIMERA " required
+                                                name="fechaAplicacionSRPPRIMERA"
                                                 placeholder="Fecha de Aplicacion"></b></div>
                 </div>
                 <div class="row">
                     <div class="card"><b><input type="text" class="form-control" id="curp"
-                                                name="FECHAAPLICACIONSRPSEGUNDA " required
+                                                name="fechaAplicacionSRPSEGUNDA"
                                                 placeholder="Fecha de Aplicacion"></b></div>
                 </div>
             </div>
@@ -373,7 +394,7 @@
             </div>
             <div class="col card text-center">
                 <div><b><input type="text" class="form-control" id="curp"
-                               name="FECHAAPLICACIONSABIN " required
+                               name="fechaAplicacionSABIN"
                                placeholder="Fecha de Aplicacion"></b></div>
             </div>
         </div>
@@ -389,7 +410,7 @@
             </div>
             <div class="col card text-center">
                 <div><b><input type="text" class="form-control" id="curp"
-                               name="FECHAAPLICACIONSRPPRIMERAA " required
+                               name="fechaAplicacionSRPPRIMERAA"
                                placeholder="Fecha de Aplicacion"></b></div>
             </div>
         </div>
@@ -432,16 +453,32 @@
             </div>
             <div class="col card text-center">
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b><input type="text" class="form-control" id="fechaAplicacionOtrasVacunasPrimera"
+                                                name="fechaAplicacionOtrasVacunasPrimera"
+                                                placeholder="Fecha Aplicacion Otras Vacunas"></b></div>
                 </div>
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b><input type="text" class="form-control" id="fechaAplicacionOtrasVacunasSegunda"
+                                                name="fechaAplicacionOtrasVacunasSegunda"
+                                                placeholder="Fecha Aplicacion Otras Vacunas"></b></div>
                 </div>
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b><input type="text" class="form-control" id="fechaAplicacionOtrasVacunasTercera"
+                                                name="fechaAplicacionOtrasVacunasTercera"
+                                                placeholder="Fecha Aplicacion Otras Vacunas"></b></div>
                 </div>
             </div>
         </div>
+
+        <div class="card-footer">
+            <div class="row">
+                <div class="col-8"></div>
+                <div class="col">
+                    <button class="btn btn-primary btn-sm" value="send1">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </form>
     </div>
 </div>
 <!-- JavaScript Bundle with Popper -->

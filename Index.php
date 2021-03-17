@@ -14,7 +14,7 @@
                 <b>Cartillas de Vacunacion</b>
             </div>
             <div class="card">
-                <form method="get" action="carnet.php">
+                <form method="post" action="carnet.php">
                     <div class="card-header text-center">
                         <b>Datos del paciente</b>
                     </div>
