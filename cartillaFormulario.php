@@ -194,32 +194,38 @@
                     <div class="card"><b>PRIMERA</b></div>
                 </div>
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b>SEGUNDA</b></div>
                 </div>
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
-                </div>
-            </div>
-            <div class="col card text-center">
-                <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
-                </div>
-                <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
-                </div>
-                <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b>TERCERA</b></div>
                 </div>
             </div>
             <div class="col card text-center">
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b>2 MESES</b></div>
                 </div>
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b>4 MESES</b></div>
                 </div>
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b>6 MESES</b></div>
+                </div>
+            </div>
+            <div class="col card text-center">
+                <div class="row">
+                    <div class="card"><b><input type="text" class="form-control" id="curp"
+                            name="FECHAAPLICACIONROTAVIRUSPRIMERA " required
+                            placeholder="Fecha de Aplicacion"></b></div>
+                </div>
+                <div class="row">
+                    <div class="card"><b><input type="text" class="form-control" id="curp"
+                                                name="FECHAAPLICACIONROTAVIRUSSEGUNDA " required
+                                                placeholder="Fecha de Aplicacion"></b></div>
+                </div>
+                <div class="row">
+                    <div class="card"><b><input type="text" class="form-control" id="curp"
+                                                name="FECHAAPLICACIONROTAVIRUSSTERCERA " required
+                                                placeholder="Fecha de Aplicacion"></b></div>
                 </div>
             </div>
         </div>
@@ -228,39 +234,45 @@
                 <div class="text-white"><b>NEUMOCOCICA<BR>CONJUGADA</b></div>
             </div>
             <div class="col card text-center">
-                <div><b>Enfermedad que previene</b></div>
+                <div><b>INFECCION <BR> POR <BR> NEUMOCOCO</b></div>
             </div>
             <div class="col card text-center">
                 <div class="row">
                     <div class="card"><b>PRIMERA</b></div>
                 </div>
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b>SEGUNDA</b></div>
                 </div>
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
-                </div>
-            </div>
-            <div class="col card text-center">
-                <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
-                </div>
-                <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
-                </div>
-                <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b>REFUERZO</b></div>
                 </div>
             </div>
             <div class="col card text-center">
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b>2 MESES</b></div>
                 </div>
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b>4 MESES</b></div>
                 </div>
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b>12 MESES</b></div>
+                </div>
+            </div>
+            <div class="col card text-center">
+                <div class="row">
+                    <div class="card"><b><input type="text" class="form-control" id="curp"
+                                                name="FECHAAPLICACIONNEUMOCOCICAPRIMERA " required
+                                                placeholder="Fecha de Aplicacion"></b></div>
+                </div>
+                <div class="row">
+                    <div class="card"><b><input type="text" class="form-control" id="curp"
+                                                name="FECHAAPLICACIONNEUMOCOCICASEGUNDA " required
+                                                placeholder="Fecha de Aplicacion"></b></div>
+                </div>
+                <div class="row">
+                    <div class="card"><b><input type="text" class="form-control" id="curp"
+                                                name="FECHAAPLICACIONNEUMOCOCICATERCERA " required
+                                                placeholder="Fecha de Aplicacion"></b></div>
                 </div>
             </div>
         </div>
@@ -269,34 +281,46 @@
                 <div class="text-white"><b>INFLUENZA</b></div>
             </div>
             <div class="col card text-center">
-                <div><b>Enfermedad que previene</b></div>
-            </div>
-            <div class="col card text-center">
-                <div><b>Dosis</b></div>
+                <div><b>INFLUENZA</b></div>
             </div>
             <div class="col card text-center">
                 <div class="row">
                     <div class="card"><b>PRIMERA</b></div>
                 </div>
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b>SEGUNDA</b></div>
                 </div>
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b>REVACUNACION</b></div>
+                </div>
+            </div>
+
+            <div class="col card text-center">
+                <div class="row">
+                    <div class="card"><b>6 MESES</b></div>
+                </div>
+                <div class="row">
+                    <div class="card"><b>7 MESES</b></div>
+                </div>
+                <div class="row">
+                    <div class="card"><b>ANUAL HASTA <BR> LOS 59 MESES</b></div>
                 </div>
             </div>
             <div class="col card text-center">
-                <div class="row"><b>PRIMERA</b>
+                <div class="row"><b><input type="text" class="form-control"
+                                           name="FECHAAPLICACIONIFLUENZAPRIMERA " required
+                                           placeholder="Fecha de Aplicacion"></b>
                 </div>
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b><input type="text" class="form-control" id="curp"
+                                                name="FECHAAPLICACIONINFLUENZASEGUNDA " required
+                                                placeholder="Fecha de Aplicacion"></b></div>
                 </div>
                 <div class="row">
                     <div class="row">
-                        <div class="card"><b>PRIMERA</b></div>
-                    </div>
-                    <div class="row">
-                        <div class="card"><b>PRIMERA</b></div>
+                        <div class="card"><b><input type="text" class="form-control" id="curp"
+                                                    name="FECHAAPLICACIONINFLUENZATERCERA " required
+                                                    placeholder="Fecha de Aplicacion"></b></div>
                     </div>
                 </div>
             </div>
@@ -306,30 +330,34 @@
                 <div class="text-white"><b>S R P</b></div>
             </div>
             <div class="col card text-center">
-                <div><b>Enfermedad que previene</b></div>
+                <div><b>SARAMPION<BR>RUBEOLA<BR>PROTIDITIS</BR></b></div>
             </div>
             <div class="col card text-center">
                 <div class="row">
                     <div class="card"><b>PRIMERA</b></div>
                 </div>
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b>REFUERZO</b></div>
                 </div>
             </div>
             <div class="col card text-center">
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b>1 AÑO</b></div>
                 </div>
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b>6 AÑOS</b></div>
                 </div>
             </div>
             <div class="col card text-center">
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b><input type="text" class="form-control" id="curp"
+                                                name="FECHAAPLICACIONSRPPRIMERA " required
+                                                placeholder="Fecha de Aplicacion"></b></div>
                 </div>
                 <div class="row">
-                    <div class="card"><b>PRIMERA</b></div>
+                    <div class="card"><b><input type="text" class="form-control" id="curp"
+                                                name="FECHAAPLICACIONSRPSEGUNDA " required
+                                                placeholder="Fecha de Aplicacion"></b></div>
                 </div>
             </div>
         </div>
@@ -338,13 +366,15 @@
                 <div class="text-white"><b>SABIN</b></div>
             </div>
             <div class="col-sm card text-center">
-                <div><b>Enfermedad que previene</b></div>
+                <div><b>POLEOMELITIS</b></div>
             </div>
             <div class="col-sm card text-center">
-                <div><b>Edad y frecuencia</b></div>
+                <div><b>ADICIONALES</b></div>
             </div>
             <div class="col card text-center">
-                <div><b>Fecha de Vacunacion</b></div>
+                <div><b><input type="text" class="form-control" id="curp"
+                               name="FECHAAPLICACIONSABIN " required
+                               placeholder="Fecha de Aplicacion"></b></div>
             </div>
         </div>
         <div class="row">
@@ -352,13 +382,15 @@
                 <div class="text-white"><b>S R</b></div>
             </div>
             <div class="col-sm card text-center">
-                <div><b>Enfermedad que previene</b></div>
+                <div><b>SARAMPION <BR> Y ER¿RUBEOLA</b></div>
             </div>
             <div class="col-sm card text-center">
-                <div><b>Edad y frecuencia</b></div>
+                <div><b>ADICIONALES</b></div>
             </div>
             <div class="col card text-center">
-                <div><b>Fecha de Vacunacion</b></div>
+                <div><b><input type="text" class="form-control" id="curp"
+                               name="FECHAAPLICACIONSRPPRIMERAA " required
+                               placeholder="Fecha de Aplicacion"></b></div>
             </div>
         </div>
         <div class="row">
